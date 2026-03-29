@@ -59,13 +59,10 @@ footer{padding:36px 24px;text-align:center;border-top:1px solid #eee;font-size:1
 .nav-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.4);z-index:140;}
 .nav-overlay.open{display:block}
 
-body{background:linear-gradient(135deg,#020817 0%,#041a10 100%);min-height:100vh;}
-.glass-panel{background:rgba(255,255,255,0.04);backdrop-filter:blur(32px);-webkit-backdrop-filter:blur(32px);border:1px solid rgba(255,255,255,0.18);box-shadow:0 8px 32px rgba(0,0,0,0.18);}
-.about,.skills,.projects,.contact{background:rgba(255,255,255,0.04)!important;backdrop-filter:blur(32px)!important;border-top:1px solid rgba(255,255,255,0.12);border-bottom:1px solid rgba(255,255,255,0.12);}
-.pc{background:rgba(255,255,255,0.08)!important;backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.15)!important;}
-.st{background:rgba(255,255,255,0.12)!important;border:1px solid rgba(255,255,255,0.2);color:rgba(255,255,255,0.9)!important;}
-nav{background:rgba(2,8,23,0.8)!important;border-bottom:1px solid rgba(255,255,255,0.1)!important;}
-body,h1,h2,h3,p,.jt,.tl,.ami,.pb p{color:#f0f4ff!important;}
-a{color:#06d6a0!important;}
-.btn{background:#10b981;border-color:#10b981;}
-footer{background:rgba(2,8,23,0.9)!important;color:rgba(255,255,255,0.3)!important;}
+body{background:linear-gradient(160deg,#020817 0%,#041a10 100%);min-height:100vh;}
+.about,.skills,.projects,.contact{background:rgba(255,255,255,0.55)!important;backdrop-filter:blur(32px)!important;-webkit-backdrop-filter:blur(32px)!important;border-top:1px solid rgba(255,255,255,0.7);border-bottom:1px solid rgba(255,255,255,0.5);}
+.pc{background:rgba(255,255,255,0.6)!important;backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.8)!important;box-shadow:0 4px 20px rgba(16,185,129,0.08)!important;}
+.st.sp{background:#10b981!important;color:#fff!important;}
+.st.so{border-color:#10b981!important;color:#10b981!important;background:rgba(255,255,255,0.5)!important;}
+nav{background:rgba(255,255,255,0.7)!important;backdrop-filter:blur(20px)!important;border-bottom:1px solid rgba(255,255,255,0.9)!important;}
+footer{background:rgba(255,255,255,0.4)!important;backdrop-filter:blur(32px)!important;}
